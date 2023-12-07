@@ -39,7 +39,7 @@ LtempK=LK;
 vartempK=varK;
 varK=var;
 LK=L;
-[var,L,bt]=IBPGupdate(var,varze,vartempK,varz,num,ngmar,aa,randsor,L,LtempK,r,wk);
+[var,L,bt]=TITANupdate(var,varze,vartempK,varz,num,ngmar,aa,randsor,L,LtempK,r,wk);
 loss(i+1)=compute(var,num,ngmar);
 bts{i}=bt;
 
