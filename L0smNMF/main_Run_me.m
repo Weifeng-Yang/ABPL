@@ -32,7 +32,7 @@ clc
 %% Parameter settings
 rng('shuffle')
 warning('off');
-dimension=[300,100,300];%dataset12mfeatfactors_10NN
+dimension=[300,100,300];
 index=2;
 maxiteropt=60000;
 r=1.5;
