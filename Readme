@@ -1,15 +1,15 @@
-## Introduction
+# Introduction
 In this paper,  we propose an accelerated block proximal linear framework with adaptive momentum ($ABPL^+$) for solving a class of non-convex non-optimization problems nonconvex and nonsmooth optimization. The advantages of the proposed algorithm framework are: (1) we extend the applicability of ABPL$^+$ to multilinear optimization problems, and this extension also allows the random shuffling of the update order of variable blocks during each cycle. 
 (2) We prove that ABPL$^+$ can ensure the convergence of the objective function without strictly or complexly restricting the extrapolation parameters and step size. (3) We also construct an adaptive extrapolation parameter strategy for the proposed framework to enhance the effectiveness and flexibility. 
 This package contains code for the sparse multiple non-negative matrix factorization with 0 norm ($\ell_0$-smNMF) problem and the sparse non-negative CP tensor decomposition with 0 norm ($\ell_0$-SNCP) problem described in the paper[<sup>1</sup>](#refer-id). 
 
-## Matlab code
+# Matlab code
 A toy example explains how to use the $ABPL^+$ function. For "L0smNMF", just run the function 'main_Run_me' . For "L0SNCP", before running the script, please first add the toolbox 'tensortoolbox'[<sup>2</sup>](#refer-id) to the running path of matlab, and then run the function 'main_Run_me'. More descriptions about these functions can be found in their annotation part.
 
-## Data
+# Data
 This code has built-in the data mentioned in paper[<sup>1</sup>](#refer-id). 
 
-## Reference
+# Reference
 <div id="refer-id"></div>
 [1] Yang W, Min W. An Accelerated Block Proximal Framework with Adaptive Momentum for Nonconvex and Nonsmooth Optimization[J]. arXiv preprint arXiv:2308.12126, 2023.
 
