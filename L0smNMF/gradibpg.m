@@ -1,4 +1,4 @@
-%% Gradient calculation function for algorithms IBPG
+%% Gradient calculation function for algorithms IBPG and TITAN
 function [U,L,Z,ZT]=gradibpg(var,varz,varK,ngmar,n,num,r)
     Z=eye(size(var{1},1),size(var{1},1));
     if(n<num)
