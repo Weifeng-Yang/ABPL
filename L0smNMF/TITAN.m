@@ -32,7 +32,7 @@ for i=1:maxiteropt
 %% update parameters
 fprintf("%d\n",i);
 randsor=randperm(num);
-randlen=randi([floor(num/2),num],1);
+randlen=num;
 randsor=[randsor,randsample([1:num], randlen,true)];
 varz=var;
 LtempK=LK;
