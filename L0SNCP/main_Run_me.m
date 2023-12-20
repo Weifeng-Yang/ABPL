@@ -1,6 +1,5 @@
 clearvars
 clc
-
 % Parameter.
 %   N         : Rank of Tensor CP Decomposition
 %   index     : The data set to be used, when index=1, use  urban_traffic dataset,
