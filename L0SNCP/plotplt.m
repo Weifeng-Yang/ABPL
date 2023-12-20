@@ -27,27 +27,26 @@ for i=1:length(lossdata)
     xlabel('iter(count)','FontSize',30);
     ylabel('Objective funciton value','FontSize',30);
     if(trigger==0)
-     mes{i}='$PALM$';
-    
+     mes{i}='PALM';
     elseif(trigger==1)
-    mes{i}='$iPALM$';
+    mes{i}='iPALM';
     elseif(trigger==2)
-    mes{i}='$BPL$';
+    mes{i}='BPL';
    elseif(trigger==3)
-    mes{i}='$IBPG$';
+    mes{i}='IBPG';
    elseif(trigger==4)
     mes{i}='TITAN';
     elseif(trigger==5)
         if(objs(i)==1)
-            mes{i}='$ABPL^{+}-cyclic$';
+            mes{i}='ABPL$^{+}$-cyclic';
         elseif(objs(i)==2)
-            mes{i}='$ABPL-cyclic$';
+            mes{i}='ABPL-cyclic';
         end
     elseif(trigger==6)
        if(objs(i)==1)
-            mes{i}='$ABPL^{+}-random$';
+            mes{i}='ABPL$^{+}$-random';
         elseif(objs(i)==2)
-            mes{i}='$ABPL-random$';
+            mes{i}='ABPL-random';
        end
     end
     hold on;
