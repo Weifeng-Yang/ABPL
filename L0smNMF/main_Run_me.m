@@ -1,6 +1,5 @@
 clear
 clc
-
 % Parameter.
 %   dimension : The number and dimension of matrices to be decomposed
 %   index      : The data set to be used, when index=1, use  mycielskian12.mat dataset,
