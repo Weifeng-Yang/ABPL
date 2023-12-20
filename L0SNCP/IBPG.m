@@ -26,8 +26,8 @@ for i=1:maxiteropt
 %% update parameters
 fprintf("%d\n",i);
 randsor=randperm(num);
-randlen=randi([floor(num/2),num],1);
-randsor=[randsor,randsample([1:num], randlen,true)];
+randlen=2;
+randsor=repmat(randsor,1,randlen);
 varz=var;
 LtempK=LK;
 vartempK=varK;
