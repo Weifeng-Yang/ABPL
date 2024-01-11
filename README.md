@@ -13,6 +13,6 @@ This code has built-in the data mentioned in paper[<sup>1</sup>](#refer-id).
 
 ## Reference
 <div id="refer-id"></div>
-[1] Yang W, Min W. An Accelerated Block Proximal Framework with Adaptive Momentum for Nonconvex and Nonsmooth Optimization -->
+[1] Yang W, Min W. An Accelerated Block Proximal Framework with Adaptive Momentum for Nonconvex and Nonsmooth Optimization[J]. arXiv preprint arXiv:2308.12126, 2023.
 
 [2] Brett W. Bader and Tamara G. Kolda. 2006. Algorithm 862: MATLAB tensor classes for fast algorithm prototyping. ACM Trans. Math. Softw. 32, 4 (December 2006), 635–653. https://doi.org/10.1145/1186785.1186794
