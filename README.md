@@ -5,7 +5,9 @@ To this end, we propose an accelerated block proximal linear method with adaptiv
 This package contains code for the sparse multiple non-negative matrix factorization with $\ell_0$-constraints ($\ell_0$-smNMF) problem and the sparse non-negative CP tensor decomposition with $\ell_0$-constraints ($\ell_0$-SNCP) problem in the paper[<sup>1</sup>](#refer-id). 
 
 ## Matlab code
-A toy example explains how to use the $ABPL^+$ function. For "L0smNMF", just run the function 'main_Run_me' . 
+"L0smNMF" is the sparse multiple non-negative matrix factorization with $\ell_0$-constraints ($\ell_0$-smNMF) function, "L0SNCP" is the sparse non-negative CP tensor decomposition with $\ell_0$-constraints ($\ell_0$-SNCP) function. 
+
+A toy example explains how to use the these function. For "L0smNMF", just run the function 'main_Run_me' . 
 
 For "L0SNCP", before running it, first add the toolbox 'tensortoolbox'[<sup>2</sup>](#refer-id) (www.tensortoolbox.org) to the running path of matlab, and then run the function 'main_Run_me'. 
 
