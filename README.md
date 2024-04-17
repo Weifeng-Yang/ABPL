@@ -12,10 +12,10 @@ A toy example explains how to use the these function. For "L0smNMF", just run th
 For "L0SNCP", before running it, first add the toolbox 'tensortoolbox'[<sup>2</sup>](#refer-id) (www.tensortoolbox.org) to the running path of matlab, and then run the function 'main_Run_me'. 
 
 ## Data
-This code has built-in the data mentioned in paper[<sup>1</sup>](#refer-id). 
+This code has built-in the data mentioned in our paper[<sup>1</sup>](#refer-id). 
 
 ## Reference
 <div id="refer-id"></div>
-[1] Yang W, Min W. An Accelerated Block Proximal Framework with Adaptive Momentum for Nonconvex and Nonsmooth Optimization[J]. arXiv preprint arXiv:2308.12126, 2023.
+[1] Yang W, Min W, et al. An Accelerated Block Proximal Method with Adaptive Momentum for Nonconvex and Nonsmooth Optimization. 
 
 [2] Brett W. Bader and Tamara G. Kolda. 2006. Algorithm 862: MATLAB tensor classes for fast algorithm prototyping. ACM Trans. Math. Softw. 32, 4 (December 2006), 635–653. https://doi.org/10.1145/1186785.1186794
