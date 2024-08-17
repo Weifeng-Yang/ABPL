@@ -58,6 +58,17 @@ btz{1}=btss;
 
 elseif(flag==5)
 for i=1:(length(objs))
+[vars,loss,tr,btss,ats]=TiBPALM(var,ngmar,aa,maxiteropt,num,stopindex,r); 
+varss{i}=vars;
+lossdata{i}=loss;
+trdata{i}=tr;
+btz{i}=btss;
+atz{1}=ats;
+data{4}=atz;
+end
+
+elseif(flag==6)
+for i=1:(length(objs))
 [vars,loss,tr,btss]=ABPL(var,ngmar,aa,maxiteropt,bt,objs(i),num,stopindex,r,t,btmax); %%ABPL-cyclic and ABPL+-cyclic
 varss{i}=vars;
 lossdata{i}=loss;
@@ -65,7 +76,7 @@ trdata{i}=tr;
 btz{i}=btss;
 end
 
-elseif(flag==6)
+elseif(flag==7)
 for i=1:(length(objs))
 [vars,loss,tr,btss]=ABPLRD(var,ngmar,aa,maxiteropt,bt,objs(i),num,stopindex,r,t,btmax); %%ABPL-random and ABPL+-random
 varss{i}=vars;
@@ -81,12 +92,14 @@ end
 
 
 
+
+
+
 data{1}=lossdata;
 data{2}=trdata;
 data{3}=btz;
 
-
-
-
-
 end
+
+
+
