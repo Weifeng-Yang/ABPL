@@ -17,7 +17,7 @@ clc
 %               when 4∈trigger, enable the TITAN algorithm
 %               when 5∈trigger, enable the TiBPALM algorithm
 %               when 6∈trigger, enable the ABPL+-cyclic algorithm
-%               when 5∈trigger, enable the ABPL+-random algorithm 
+%               when 7∈trigger, enable the ABPL+-random algorithm 
 %   objs      : Whether to enable ABPL+'s adaptive momentum, when
 %               when 1∈objs, enable the adaptive momentum
 %               when 2∈objs, enable the non-adaptive momentum
@@ -39,7 +39,7 @@ r=1.5;
 bt=0.6;
 t=1.1;
 btmax=0.9999;
-trigger=[0,1,2,3,4,5,6];
+trigger=[0,1,2,3,4,5,6,7];
 objs=[1,2];
 percent=0.3;
 stopindex=2;
