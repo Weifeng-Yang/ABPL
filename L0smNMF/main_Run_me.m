@@ -15,8 +15,9 @@ clc
 %               when 2∈trigger, enable the BPL algorithm
 %               when 3∈trigger, enable the IBPG algorithm
 %               when 4∈trigger, enable the TITAN algorithm
-%               when 5∈trigger, enable the ABPL+-cyclic algorithm
-%               when 6∈trigger, enable the ABPL+-random algorithm 
+%               when 5∈trigger, enable the TiBPALM algorithm
+%               when 6∈trigger, enable the ABPL+-cyclic algorithm
+%               when 5∈trigger, enable the ABPL+-random algorithm 
 %   objs      : Whether to enable ABPL+'s adaptive momentum, when
 %               when 1∈objs, enable the adaptive momentum
 %               when 2∈objs, enable the non-adaptive momentum
