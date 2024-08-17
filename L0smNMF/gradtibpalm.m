@@ -1,4 +1,4 @@
-%% Gradient calculation function for iPALM
+%% Gradient calculation function for TiBPALM
 function U=gradtibpalm(var,varK,varK1,at,bt,ngmar,n,num,r)
   
 
