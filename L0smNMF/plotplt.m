@@ -35,13 +35,15 @@ for i=1:length(lossdata)
     mes{i}='IBPG';
    elseif(trigger==4)
     mes{i}='TITAN';
-    elseif(trigger==5)
+   elseif(trigger==5)
+    mes{i}='TiBPALM';
+    elseif(trigger==6)
         if(objs(i)==1)
             mes{i}='ABPL$^{+}$-cyclic';
         elseif(objs(i)==2)
             mes{i}='ABPL-cyclic';
         end
-    elseif(trigger==6)
+    elseif(trigger==7)
        if(objs(i)==1)
             mes{i}='ABPL$^{+}$-random';
         elseif(objs(i)==2)
