@@ -16,7 +16,7 @@ end
 
 function mess=pltplt(lossdata,trdata,objs,trigger,mess,color)
 figure(1)
-ss=20;
+ss=50;
 for i=1:length(lossdata)
     maker_idx = 1:ss:length(lossdata{i});
     semilogy(trdata{i},lossdata{i},color,'linewidth',2,'MarkerIndices',maker_idx);
