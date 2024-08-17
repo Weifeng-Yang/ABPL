@@ -57,15 +57,13 @@ btz{1}=btss;
 
 
 elseif(flag==5)
-for i=1:(length(objs))
 [vars,loss,tr,btss,ats]=TiBPALM(var,ngmar,aa,maxiteropt,num,stopindex,r); 
-varss{i}=vars;
-lossdata{i}=loss;
-trdata{i}=tr;
-btz{i}=btss;
+varss{1}=vars;
+lossdata{1}=loss;
+trdata{1}=tr;
+btz{1}=btss;
 atz{1}=ats;
 data{4}=atz;
-end
 
 elseif(flag==6)
 for i=1:(length(objs))
