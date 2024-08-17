@@ -1,5 +1,5 @@
 %%  All parameters of this function are explained the same as 'main_Run_me' and 'ALGOchoose' functions
-%%  This algorithm comes from the paper: "Inertial Proximal Alternating Linearized Minimization (iPALM) for Nonconvex and Nonsmooth Problems"
+%%  This algorithm comes from the paper: "Two-step inertial Bregman proximal alternating linearized minimization algorithm for nonconvex and nonsmooth problems"
 function [var,loss,timerun,bts,ats]=TiBPALM(var,ngmar,aa,maxiteropt,num,stopindex,r)
 %% initialization algorithm
 loss=[];
@@ -16,7 +16,7 @@ varK1=var;
 t1=clock;
 for i=1:maxiteropt
 fprintf("%d\n",i); 
-%% This extrapolation parameter update strategy is the best choice in iPALM according to the numerical results.
+%% This extrapolation parameter update strategy is the best choice in TiBPALM according to the numerical results.
 at=(i-1)/(i+2);
 bt=(i-1)/(i+2);
 %% Update parameters
@@ -57,7 +57,7 @@ end
 end
 
 
-%% The parameters update function of iPALM
+
 
 
 
