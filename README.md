@@ -15,7 +15,7 @@ This package contains code for the sparse multiple non-negative matrix factoriza
 "L0smNMF" is the sparse multiple non-negative matrix factorization with $\ell_0$-constraints ($\ell_0$-smNMF) function, and "L0SNCP" is the sparse non-negative CP tensor decomposition with $\ell_0$-constraints ($\ell_0$-SNCP) function. 
 
 ## How to run our code
-A toy example explains how to use the these function. For "L0smNMF", just run the function 'main_Run_me' . 
+A toy example explains how to use the these function. For "L0smNMF", just run the function '[main_Run_me.m](main_Run_me.m)'. 
 
 For "L0SNCP", before running it, first add the toolbox 'tensortoolbox'[<sup>2</sup>](#refer-id) (www.tensortoolbox.org) to the running path of matlab, and then run the function 'main_Run_me'. 
 
